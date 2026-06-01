@@ -4,14 +4,14 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   ci:
     runs-on: ubuntu-latest
 
     steps:
-      # run - executa um comando shell na máquina virtual
+      # run - executa um comando shell na máquina virtual.
       # use - executa um action pré-definido na máquina virtual
       - name: Checkout do repositório na máquina virtual
         uses: actions/checkout@v4
