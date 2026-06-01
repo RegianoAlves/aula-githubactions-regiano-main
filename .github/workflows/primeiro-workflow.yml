@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ main, developer ]
 
-# quais são os trabalhos a serem executados pelo workflow ?
+# quais são os trabalhos a serem executados pelo workflow?
 jobs:
   job1:
     name: Job 1
